@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+md-sidenav-container {
+    min-height: 100vh;
+}
+
+.nav-icon {
+    cursor: pointer;
+}
+
+md-sidenav {
+    min-height: 100%;
+}

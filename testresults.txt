@@ -1,0 +1,54 @@
+
+[1m[31mERROR in ./src/app/home/home.component.ts
+Module build failed: TypeError: Cannot read property 'getChildAt' of undefined
+    at refactor.findAstNodes.filter.forEach (/home/ronnie/Documents/dev/dashboard/node_modules/@ngtools/webpack/src/loader.js:221:54)
+    at Array.forEach (native)
+    at _removeModuleId (/home/ronnie/Documents/dev/dashboard/node_modules/@ngtools/webpack/src/loader.js:215:10)
+    at Promise.resolve.then.then (/home/ronnie/Documents/dev/dashboard/node_modules/@ngtools/webpack/src/loader.js:298:33)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+ @ ./src/app/home/home.module.ts 13:25-52
+ @ ./src async
+ @ ./~/@angular/core/src/linker/system_js_ng_module_factory_loader.js
+ @ ./~/@angular/core/src/linker.js
+ @ ./~/@angular/core/src/core.js
+ @ ./~/@angular/core/index.js
+ @ ./src/main.ts
+ @ multi ./src/main.ts[39m[22m
+
+[1m[31mERROR in ./src/app/help/help.component.ts
+Module build failed: TypeError: Cannot read property 'getChildAt' of undefined
+    at refactor.findAstNodes.filter.forEach (/home/ronnie/Documents/dev/dashboard/node_modules/@ngtools/webpack/src/loader.js:221:54)
+    at Array.forEach (native)
+    at _removeModuleId (/home/ronnie/Documents/dev/dashboard/node_modules/@ngtools/webpack/src/loader.js:215:10)
+    at Promise.resolve.then.then (/home/ronnie/Documents/dev/dashboard/node_modules/@ngtools/webpack/src/loader.js:298:33)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+ @ ./src/app/help/help.module.ts 13:25-52
+ @ ./src async
+ @ ./~/@angular/core/src/linker/system_js_ng_module_factory_loader.js
+ @ ./~/@angular/core/src/linker.js
+ @ ./~/@angular/core/src/core.js
+ @ ./~/@angular/core/index.js
+ @ ./src/main.ts
+ @ multi ./src/main.ts[39m[22m
+[31m06 03 2017 12:10:32.455:ERROR [karma]: [39m{ Error: no such file or directory
+    at MemoryFileSystem.readFileSync (/home/ronnie/Documents/dev/dashboard/node_modules/memory-fs/lib/MemoryFileSystem.js:107:10)
+    at MemoryFileSystem.(anonymous function) [as readFile] (/home/ronnie/Documents/dev/dashboard/node_modules/memory-fs/lib/MemoryFileSystem.js:300:34)
+    at doRead (/home/ronnie/Documents/dev/dashboard/node_modules/karma-webpack/lib/karma-webpack.js:205:29)
+    at Plugin.readFile (/home/ronnie/Documents/dev/dashboard/node_modules/karma-webpack/lib/karma-webpack.js:210:7)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  code: 'ENOENT',
+  errno: 34,
+  message: 'no such file or directory',
+  path: '/_karma_webpack_/src/polyfills.ts' }
+[31m06 03 2017 12:10:32.465:ERROR [karma]: [39m{ Error: no such file or directory
+    at MemoryFileSystem.readFileSync (/home/ronnie/Documents/dev/dashboard/node_modules/memory-fs/lib/MemoryFileSystem.js:107:10)
+    at MemoryFileSystem.(anonymous function) [as readFile] (/home/ronnie/Documents/dev/dashboard/node_modules/memory-fs/lib/MemoryFileSystem.js:300:34)
+    at doRead (/home/ronnie/Documents/dev/dashboard/node_modules/karma-webpack/lib/karma-webpack.js:205:29)
+    at Plugin.readFile (/home/ronnie/Documents/dev/dashboard/node_modules/karma-webpack/lib/karma-webpack.js:210:7)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  code: 'ENOENT',
+  errno: 34,
+  message: 'no such file or directory',
+  path: '/_karma_webpack_/src/test.ts' }

@@ -1,0 +1,8 @@
+.anchor-sidenav {
+    text-decoration: none;
+}
+
+.anchor-sidenav:active {
+    border: none;
+    text-decoration: none;
+}
